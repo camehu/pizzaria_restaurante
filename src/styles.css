@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://images.alphacoders.com/859/thumb-1920-859458.jpg");
+  background-size: "cover";
+  font-family: "Roboto";
+  size: 400;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Dirt", cursive;
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-size: 120px;
+  color: antiquewhite;
+  margin-top: 10%;
+}
+h2,
+h3 {
+  color: antiquewhite;
+  font-size: 16;
+  size: 500;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-family: "Style Script", cursive;
+  size: 100;
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2,
+  h3 {
+    color: antiquewhite;
+    font-size: 10;
+  }
+  h3 {
+    font-family: "Roboto", sans-serif;
+    font-family: "Style Script", cursive;
+    size: 10;
+  }
+}
+
+@media only screen and (max-width: 600) {
+  nav {
+    font-size: 10;
+  }
+}
